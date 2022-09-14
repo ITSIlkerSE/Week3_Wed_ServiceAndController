@@ -8,10 +8,13 @@ public class Main {
 
 
         StudentController studentController = new StudentController(biologyService);
+        StudentController studentController2 = new StudentController(mathService);
 
         String hello = studentController.getHello();
+        String hello2 = studentController2.getHello();
 
         System.out.println(hello);
+        System.out.println(hello2);
     }
 }
 
